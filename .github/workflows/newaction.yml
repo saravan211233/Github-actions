@@ -1,5 +1,5 @@
 name: new-action
-on: [workflow_dispatch]
+on: push  
 
 jobs:
   my-first-job:
