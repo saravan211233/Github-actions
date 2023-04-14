@@ -7,4 +7,6 @@ jobs:
     steps:
       - name: say hello
         run: echo "hello world"
+      - name: say Goodbye
+        run: echo "good bye"
       
