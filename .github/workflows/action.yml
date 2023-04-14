@@ -1,8 +1,0 @@
-name: my workflow
-on:[worflow_dispatch]
-jobs:
-  my-first-job:
-    run_on: ubuntu-22.04
-    steps:
-      - name: say hello
-        run: echo"hello world"
