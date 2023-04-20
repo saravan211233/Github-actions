@@ -1,0 +1,8 @@
+name: run-on-push-to-all-branches
+on: push
+jobs:
+  push job:
+  run on: ubuntu-latest
+  steps:
+   - name:echo name
+     run: ech"hell"
